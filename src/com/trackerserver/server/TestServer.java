@@ -46,6 +46,7 @@ public class TestServer {
                             		}
                             		
                             		File file = new File("/home/hong/Tracker/data/" + userName);
+                            		
                             		try {
 										file.createNewFile();
 									} catch (IOException e) {
